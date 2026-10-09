@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "CarDex",
+    "slug": "cardex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "plugins": [["expo-image-picker", {
+      "cameraPermission": "CarDex uses your camera to photograph cars for your collection.",
+      "photosPermission": "CarDex lets you choose car photos for your collection.",
+      "microphonePermission": false
+    }]],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
